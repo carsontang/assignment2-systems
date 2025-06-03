@@ -1,0 +1,15 @@
+# Core dependencies
+torch>=2.2.2
+numpy
+tqdm>=4.67.1
+matplotlib
+pandas>=2
+pytest>=8
+regex>=2024.11.6
+humanfriendly
+wandb>=0.19.7
+
+# For benchmarking
+triton>=2.0.0  # Only needed if using Triton kernels
+
+# Note: cs336-basics is installed from local directory via pip install -e ./cs336-basics

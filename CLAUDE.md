@@ -77,3 +77,20 @@ assignment2-systems/
 ├── tests/                 # Test files that define the required API
 └── pyproject.toml        # Project configuration and dependencies
 ```
+
+### Running on Google Colab
+
+To test this project on Google Colab with GPU:
+
+1. **Create a clean copy** (removes cache files and unnecessary data):
+   ```bash
+   ./clean_for_upload.sh
+   ```
+
+2. **Upload to Google Drive**:
+   - Upload the `assignment2-systems-clean` folder to your Google Drive
+
+3. **Run in Colab**:
+   - Open `CS336_Assignment2_Colab.ipynb` in Google Colab
+   - Enable GPU: Runtime → Change runtime type → Hardware accelerator → GPU
+   - Follow the notebook instructions to mount Drive and run benchmarks
